@@ -1,1 +1,16 @@
-package.json
+{
+  "name": "2m-autoworks-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5",
+    "nodemailer": "^6.9.0",
+    "twilio": "^4.0.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5"
+  }
+}
